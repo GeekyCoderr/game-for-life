@@ -1,0 +1,82 @@
+body{background-color:#00a999;
+margin-left: 2px;
+margin-right:1px;
+margin-top: 0px;
+
+
+}
+
+
+
+
+h1{
+	position: relative;
+	text-align:center;
+	margin-top: 30px;
+font-size: 90px;
+	color: white;
+	font-family:cursive;
+	height:200px;
+	background-image: url(andriod1.jpeg);
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	margin-top: 0px;
+	margin-right: 0px;
+}
+
+
+
+
+
+ h2{
+	font-style:bold;
+	font-weight: 50%;
+	font-size:45px;
+	text-decoration: underline;
+	
+}
+
+
+
+
+
+p{
+	width: 850px;
+	font-family:italic;
+	
+}
+
+
+
+section{
+	border-bottom:dotted 3px;
+	width: 1300px;
+}
+
+
+@media screen and (max-width: 750px){
+p{
+width: 440px;
+
+}
+
+
+h1{
+	font-size:70px;
+
+}
+
+
+
+
+}
+
+
+	
+
+
+
+ 
+
+

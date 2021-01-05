@@ -1,0 +1,167 @@
+body{
+	background-image:url(pra1.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+h1{
+   text-align:center;
+   color:white;
+   font-family: cursive;
+   font-size: 130px;
+   animation-duration: 2s;
+   animation-name: gaming-world;
+   position: relative;
+
+}
+
+
+
+
+ul{
+	border: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 20px;
+}
+
+
+li{
+	float:left;
+	}
+
+
+
+nav{
+	position: relative;
+	margin: 180px auto 0;
+	width: 590px;
+	height:50px;
+	background-color:lightblue;
+	border-radius: 6px;
+	font-size: 0;
+}
+
+
+
+nav a{
+	font-size: px;
+	text-decoration:none;
+	color:black;
+	line-height: 50px;
+	position: relative;
+	display:block;
+	padding: 0 25px;
+	text-align:center;
+
+}
+
+ .beard:hover::after{
+	width: 100%;
+	transition: width .3s
+	
+}
+
+
+.beard::after{
+	content:" ";
+	display:block;
+	width:0;
+	height:5px;
+	background:orange;
+	transition: width .3s
+	top:10px;
+}
+
+
+
+
+@keyframes gaming-world{
+	from{
+		top: -60px;
+	}
+	to{
+		top:0px;
+	}
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 500px){
+
+
+
+h1{
+   text-align:center;
+   color:white;
+   font-family: cursive;
+   font-size: 80px;
+   animation-duration: 2s;
+   animation-name: gaming-world;
+   position: relative;
+
+}
+
+body{
+	background-image: url(pra1234.jpg);
+	background-size:cover;
+}
+
+
+ul{
+	border: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 10px;
+}
+
+nav{
+	position: relative;
+	margin: 90px auto 0;
+	width: 280px;
+	height:45px;
+	background-color:lightblue;
+	border-radius: 6px;
+	font-size: 0;
+}
+
+
+nav a{
+	font-size:13px;
+	text-decoration:none;
+	color:black;
+	line-height: 39px;
+	position: relative;
+	display:block;
+	padding: 0 10px;
+	text-align:center;
+
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
